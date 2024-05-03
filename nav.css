@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:white;
+}
+ul{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: darkgreen;
+color:white;
+border-radius: 10px;
+}
+ li{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+ }
+ form{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .btn :hover{
+    padding: 5px;
+    margin-bottom:  10px;
+    border-radius: 10px;
+   text-align: right;
+   justify-content: right;
+
+ }
+ .form{
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    height: 70vh;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+  
+ input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+    align-items:flex-start;
+    display: flex;
+    margin: 10px;
+    display: inline-block;
+   
+
+ }
+ 
+ .ragister{
+    background-color: chartreuse;
+    width: 100%;
+    height: 50px;
+   margin: 10px;
+ }
+ hr{
+    border: 1px solid red;
+    margin-bottom: 25px;
+ }
